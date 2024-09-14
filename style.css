@@ -219,3 +219,26 @@ footer {
     margin-top: 30px;
     font-size: 1.6rem;
 }
+@media screen and (min-width: 768px) {
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        display: flex;
+        background-color: #000;
+    }
+
+    #menu > li {
+        padding-left: 1rem;
+        font-size: 1.5rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+}
