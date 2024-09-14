@@ -332,3 +332,9 @@ footer {
         margin: 0.625rem 0;
     }
 }
+/* Final adjustments for mobile layout */
+@media (max-width: 480px) {
+    footer {
+        padding: 20px;
+    }
+}
