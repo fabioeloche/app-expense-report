@@ -327,3 +327,8 @@ footer {
 .social-icon:hover i {
     color: #ff6600;
 }
+@media (max-width: 480px) {
+    .social-networks {
+        margin: 0.625rem 0;
+    }
+}
