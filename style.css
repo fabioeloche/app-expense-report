@@ -154,3 +154,24 @@ nav {
     background-color: #333333;
     border-color: #ff6600;
 }
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    width: 90%;
+    max-width: 1200px;
+}
+
+.grid-item {
+    border: 4px solid #943f19;
+    font-size: 18px;
+    border-radius: 20px;
+    min-height: 170px;
+    padding: 20px 10px;
+}
