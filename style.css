@@ -324,3 +324,6 @@ footer {
 .signup-button-max:hover {
     background: #161616;
 }
+.social-icon:hover i {
+    color: #ff6600;
+}
