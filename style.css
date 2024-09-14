@@ -175,3 +175,22 @@ nav {
     min-height: 170px;
     padding: 20px 10px;
 }
+footer {
+    position: relative;
+    z-index: 1;
+    background: #000000;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-icon {
+    display: inline;
+    font-size: 40px;
+    margin-right: 10px;
+}
+
+.social-icon .fa-x-twitter { color: #fff; }
+.social-icon .fa-facebook-square { color: #0552d1; }
+.social-icon .fa-youtube-square { color: #FF0000; }
